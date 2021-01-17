@@ -1,0 +1,5 @@
+Docker - Microsoft
+Jupyter - Microsoft
+Python - Microsoft
+VIM - vscodevim
+Bracket Pair Colorizer 2 - CoenraadS
