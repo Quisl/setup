@@ -1,5 +1,7 @@
 Docker - Microsoft
+Kubernetes - Microsoft
 Jupyter - Microsoft
 Python - Microsoft
-VIM - vscodevim
-Bracket Pair Colorizer 2 - CoenraadS
+Django - Baptiste Darthenay
+Vim - vscodevim
+YAML - Red Hat
