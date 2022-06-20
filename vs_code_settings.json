@@ -1,40 +1,58 @@
 {
-	"[python]": {
-		"editor.rulers": [
-			79
-		]
-	},
-	"python.linting.enabled": true,
-	"python.linting.pylintEnabled": true,
-	"python.linting.pylintUseMinimalCheckers": false,
-	"python.linting.pylintArgs": [
-		"--max-line-length=79",
-		"--disable=F0401,E0611,E1101,C0330",
-		"--module-naming-style=snake_case",
-		"--const-naming-style=UPPER_CASE",
-		"--class-naming-style=PascalCase",
-		"--function-naming-style=snake_case",
-		"--method-naming-style=snake_case",
-		"--attr-naming-style=camelCase",
-		"--argument-naming-style=camelCase",
-		"--variable-naming-style=snake_case",
-		"--class-attribute-naming-style=camelCase",
-		"--inlinevar-naming-style=snake_case",
-		"--extension-pkg-whitelist=pyodbc",
-		"--extension-pkg-whitelist=azure-mgmt"
-	],
-	"python.formatting.provider": "black",
-	"python.formatting.blackArgs": [
-		"--line-length",
-		"79"
-	],
-	"editor.formatOnSave": true,
-	"editor.formatOnSaveTimeout": 15000,
-	//-------- HTTP configuration --------
-	// Whether the proxy server certificate should be verified against the list of supplied CAs.
-	"http.proxyStrictSSL": false,
-	"autoDocstring.startOnNewLine": true,
-	"window.zoomLevel": 0,
-	"breadcrumbs.enabled": true,
-	"files.trimFinalNewlines": true
+    "[python]": {
+        "editor.rulers": [
+            79
+        ]
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.linting.pylintArgs": [
+        "--max-line-length=79",
+        "--disable=F0401,E0611,E1101,C0330",
+        "--module-naming-style=snake_case",
+        "--const-naming-style=UPPER_CASE",
+        "--class-naming-style=PascalCase",
+        "--function-naming-style=snake_case",
+        "--method-naming-style=snake_case",
+        "--attr-naming-style=camelCase",
+        "--argument-naming-style=camelCase",
+        "--variable-naming-style=snake_case",
+        "--class-attribute-naming-style=camelCase",
+        "--inlinevar-naming-style=snake_case",
+        "--extension-pkg-whitelist=pyodbc",
+        "--extension-pkg-whitelist=azure-mgmt"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79"
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 15000,
+    //-------- HTTP configuration --------
+    // Whether the proxy server certificate should be verified against the list of supplied CAs.
+    "http.proxyStrictSSL": false,
+    "autoDocstring.startOnNewLine": true,
+    "breadcrumbs.enabled": true,
+    "files.trimFinalNewlines": true,
+    "vim.useSystemClipboard": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "jupyter.interactiveWindowMode": "perFile",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript"
+    ],
+    "svelte.enable-ts-plugin": true,
+    "window.zoomLevel": 2,
+    "jupyter.askForKernelRestart": false
 }
